@@ -141,7 +141,7 @@ class _HomescreenState extends State<Homescreen> {
                           height: 13,
                         ),
                         Text(
-                          '${Provider.of<homeProvider>(context, listen: true).tr.toInt()}',
+                          '${Provider.of<homeProvider>(context, listen: true).tr.toInt()} Y',
                           style:
                               TextStyle(color: Color(0xffffffff), fontSize: 25),
                         ),
